@@ -88,5 +88,5 @@ pip install -r requirements.txt
 
 
 1. **Clone the Repository**:
-[https://github.com/your-repo/ollama-chatbot.git](https://github.com/TLAN145/chatbotv32p.git)
+[https://github.com/your-repo/ollama-chatbot.git](https://github.com/TLAN145/chatbot32p.git)
 
