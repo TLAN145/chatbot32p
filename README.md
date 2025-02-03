@@ -1,25 +1,26 @@
-# Ollama Chatbot with ChromaDB Memory
-This project demonstrates how to build a chatbot using Ollama's LLM (Language Model) and ChromaDB for maintaining contextual memory. The chatbot remembers previous interactions and leverages past conversation data to provide relevant and accurate responses. The app is built using Streamlit for the frontend interface. This updated version allows for reading multiple `.txt` files for additional context, offering more adaptability and responsiveness in the conversations. Bot can answer to the questions about Constitution of Kazakhstan. 
+# AI Assistant for the Constitution of Kazakhstan
+
+This project is an **AI-powered chatbot** designed to answer questions specifically related to the **Constitution of the Republic of Kazakhstan**. The assistant provides **accurate interpretations** and **citations of relevant articles and sections** from the official English version of the Constitution. 
+
+The chatbot is built using **Streamlit**, **Ollama**, and **ChromaDB**, incorporating **Multi-Query Retrieval (MQR)** and **RAG Fusion** to enhance response quality.
 
 ## Features
-- **Contextual Memory**: Uses ChromaDB to store and retrieve conversation history and context.
-- **Language Model Interaction**: Interacts with the `OllamaLLM` for generating responses.
-- **File Uploads**: Upload and process multiple `.txt` files to provide additional context during interactions.
-- **Streamlit Interface**: A user-friendly interface for easy interaction and viewing conversation history.
-- **Model Selection**: Choose between different Ollama models via the sidebar.
-- **Chat History**: The chatbot remembers previous exchanges for more coherent and contextual conversations.
-- **Clear Chat History**: Clears both the session's chat history and ChromaDB's stored data, allowing for fresh interactions.
+- **Legal Document Interpretation**: Provides precise answers based on the Constitution of Kazakhstan.
+- **Multi-Query Retrieval (MQR)**: Generates multiple variations of a user query to retrieve the most relevant information.
+- **RAG Fusion**: Combines retrieved data from multiple queries for a more comprehensive response.
+- **Contextual Memory**: Uses **ChromaDB** to store and retrieve conversation history.
+- **Multiple Model Support**: Users can select between **llama3.1:8b** and **llama3.2:1b** models.
+- **User-Friendly Interface**: Built with **Streamlit** for an intuitive chat experience.
 
-## Requirements
-- Python 3.7 or higher
-- Streamlit
-- Langchain (Ollama integration)
-- ChromaDB
-- OpenAI API Key (for embeddings in ChromaDB)
+## Installation Guide
 
-## Usage
-- **Interact with the chatbot** via the text input box. The chatbot retains context from past conversations and can process multiple `.txt` files to enhance its responses.
-- **Upload `.txt` files** to provide additional context for your queries, making the chatbot's responses more informed.
+### Prerequisites
+- **Python 3.8 or later**
+- **Git** (optional, for cloning the repository)
+- **Ollama** installed ([Installation Guide](https://ollama.ai/))
+- **ChromaDB**
+- **Langchain**
+- **Streamlit**
 
 ### Examples
 
